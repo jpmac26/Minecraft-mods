@@ -30,7 +30,7 @@ if os.path.isdir('lib/') == False:
 	os.makedirs(os.path.dirname('lib/'))
 	
 print("Downloading worldedit...")
-urllib.urlretrieve('http://dev.bukkit.org/media/files/715/447/worldedit-5.5.7.jar', 'lib/WorldEdit.jar')
+urllib.urlretrieve('https://addons-origin.cursecdn.com/files/739/931/worldedit-5.5.8.jar', 'lib/WorldEdit.jar')
 
 if os.path.isdir('reobf/') == False:
 	os.makedirs(os.path.dirname('reobf/'))
