@@ -1,3 +1,3 @@
 #!/bin/bash
 cd ../..
-python src-mods/build/runtime/make.py "$@"
+python2 src-mods/build/runtime/make.py "$@"

@@ -79,8 +79,8 @@ if os.name is "nt":
 	os.system("runtime\\bin\\python\\python_mcp.exe runtime\\recompile.py")
 	os.system("runtime\\bin\\python\\python_mcp.exe runtime\\reobfuscate.py")
 else:
-	os.system("python runtime/recompile.py")
-	os.system("python runtime/reobfuscate.py")
+	os.system("python2 runtime/recompile.py")
+	os.system("python2 runtime/reobfuscate.py")
 
 # If the Result folder doesn't exist, create it
 if os.path.isdir(RESULT_DIR + "/client/") == False:
